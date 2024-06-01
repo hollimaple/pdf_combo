@@ -16,12 +16,11 @@ Windowsならダウンロードしてパスを通す（コマンドラインか�
 MacならHomebrewでインストール
 '''
 
-#out_file = r"C:/Users/sho/Desktop/out/out.pdf"
 #アウトプットのディレクトリを指定
-decrypt_filepath = r"/Users/sho/Downloads/out"
+decrypt_filepath = r"/Users/hollimaple/Downloads/out"
 out_file = decrypt_filepath + r"/out.pdf"
 #インプットのディレクトリを指定
-in_file = r"/Users/sho/Downloads/in" + r"/*.pdf"
+in_file = r"/Users/hollimaple/Downloads/in" + r"/*.pdf"
 
 pdfs = glob.glob(in_file)
 
